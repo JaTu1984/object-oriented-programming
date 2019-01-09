@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kissaohjelma", "Kissaohjelma\Kissaohjelma.csproj", "{51EFDB79-6132-4E5C-B2B9-139FFE6A1A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kirjaohjelma", "Kirjaohjelma\Kirjaohjelma.csproj", "{061F7682-2C53-427A-8B79-1339B8F7ED99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51EFDB79-6132-4E5C-B2B9-139FFE6A1A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EFDB79-6132-4E5C-B2B9-139FFE6A1A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EFDB79-6132-4E5C-B2B9-139FFE6A1A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EFDB79-6132-4E5C-B2B9-139FFE6A1A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061F7682-2C53-427A-8B79-1339B8F7ED99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061F7682-2C53-427A-8B79-1339B8F7ED99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061F7682-2C53-427A-8B79-1339B8F7ED99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061F7682-2C53-427A-8B79-1339B8F7ED99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3195DF4C-922A-40C6-8D3C-A4323C43DC6B}
+	EndGlobalSection
+EndGlobal
