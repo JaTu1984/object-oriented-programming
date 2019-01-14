@@ -28,6 +28,7 @@ namespace Auto_ohjelma
             this.brand = Console.ReadLine();
             Console.WriteLine("Anna auton nopeus?");
             this.speed = int.Parse(Console.ReadLine());
+
         }
 
         public string ShowCarInfo()

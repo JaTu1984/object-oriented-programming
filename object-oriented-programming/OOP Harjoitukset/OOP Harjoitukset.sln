@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kissaohjelma", "Kissaohjelm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirjaohjelma", "Kirjaohjelma\Kirjaohjelma.csproj", "{061F7682-2C53-427A-8B79-1339B8F7ED99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto-ohjelma", "Auto-ohjelma\Auto-ohjelma.csproj", "{5768EF90-5B70-43C8-81A9-CCF61240F42B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto-ohjelma", "Auto-ohjelma\Auto-ohjelma.csproj", "{5768EF90-5B70-43C8-81A9-CCF61240F42B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firma-ohjelma", "Firma-ohjelma\Firma-ohjelma.csproj", "{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5768EF90-5B70-43C8-81A9-CCF61240F42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5768EF90-5B70-43C8-81A9-CCF61240F42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5768EF90-5B70-43C8-81A9-CCF61240F42B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
