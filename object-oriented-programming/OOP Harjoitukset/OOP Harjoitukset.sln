@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirjaohjelma", "Kirjaohjelm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto-ohjelma", "Auto-ohjelma\Auto-ohjelma.csproj", "{5768EF90-5B70-43C8-81A9-CCF61240F42B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firma-ohjelma", "Firma-ohjelma\Firma-ohjelma.csproj", "{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Firma-ohjelma", "Firma-ohjelma\Firma-ohjelma.csproj", "{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Työntekijä-ohjelma", "Työntekijä-ohjelma\Työntekijä-ohjelma.csproj", "{553907FF-2110-4222-BC16-842C6A548CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketPriceCalculator", "TicketPriceCalculator\TicketPriceCalculator.csproj", "{8E182A86-DE69-4630-8A1E-E63444293909}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C1EAF8-A151-4CA2-9856-21B69F5E22A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{553907FF-2110-4222-BC16-842C6A548CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553907FF-2110-4222-BC16-842C6A548CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553907FF-2110-4222-BC16-842C6A548CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553907FF-2110-4222-BC16-842C6A548CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E182A86-DE69-4630-8A1E-E63444293909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E182A86-DE69-4630-8A1E-E63444293909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E182A86-DE69-4630-8A1E-E63444293909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E182A86-DE69-4630-8A1E-E63444293909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
