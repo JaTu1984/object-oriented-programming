@@ -10,13 +10,20 @@ namespace Työntekijä_ohjelma
 
             Employee firstEmployee = new Employee();
             firstEmployee.AskData();
-            Console.WriteLine(firstEmployee.PrintEmployeeInfo());
+            //Console.WriteLine(firstEmployee.PrintEmployeeInfo());
             Employee secondEmployee = new Employee();
             secondEmployee.AskData();
-            Console.WriteLine(secondEmployee.PrintEmployeeInfo());
+            //Console.WriteLine(secondEmployee.PrintEmployeeInfo());
             firstEmployee.CompareSalary(secondEmployee);
             Console.WriteLine(firstEmployee.CompareSalary(secondEmployee));
             Console.ReadKey();
+            Employee[] employees = new Employee[3];
+            employees[0] = firstEmployee;
+            employees[1] = secondEmployee;
+            foreach (Employee employee in employees)
+            {
+                employee.PrintEmployeeInfo();
+            }
         }
     }
 }
