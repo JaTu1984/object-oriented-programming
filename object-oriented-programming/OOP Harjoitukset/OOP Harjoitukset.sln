@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Työntekijä-ohjelma", "Ty�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketPriceCalculator", "TicketPriceCalculator\TicketPriceCalculator.csproj", "{8E182A86-DE69-4630-8A1E-E63444293909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBook2", "TaskBook2\TaskBook2.csproj", "{EB146C27-4145-44A0-9209-02DBDCDF3E36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskBook2", "TaskBook2\TaskBook2.csproj", "{EB146C27-4145-44A0-9209-02DBDCDF3E36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KulkuValine", "KulkuVäline\KulkuValine.csproj", "{12940573-4BAA-4CFE-A596-5BF7B5110377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajapinta", "Rajapinta\Rajapinta.csproj", "{B2F7CB92-270D-4B38-A449-1C0B76DA2F94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{EB146C27-4145-44A0-9209-02DBDCDF3E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB146C27-4145-44A0-9209-02DBDCDF3E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB146C27-4145-44A0-9209-02DBDCDF3E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12940573-4BAA-4CFE-A596-5BF7B5110377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12940573-4BAA-4CFE-A596-5BF7B5110377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12940573-4BAA-4CFE-A596-5BF7B5110377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12940573-4BAA-4CFE-A596-5BF7B5110377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F7CB92-270D-4B38-A449-1C0B76DA2F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F7CB92-270D-4B38-A449-1C0B76DA2F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F7CB92-270D-4B38-A449-1C0B76DA2F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F7CB92-270D-4B38-A449-1C0B76DA2F94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
