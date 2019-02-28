@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskBook2", "TaskBook2\Task
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KulkuValine", "KulkuVäline\KulkuValine.csproj", "{12940573-4BAA-4CFE-A596-5BF7B5110377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajapinta", "Rajapinta\Rajapinta.csproj", "{B2F7CB92-270D-4B38-A449-1C0B76DA2F94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajapinta", "Rajapinta\Rajapinta.csproj", "{B2F7CB92-270D-4B38-A449-1C0B76DA2F94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{64BD8DE6-BFBD-4F59-ACD5-1FA1E9F3AF50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csproj", "{64BD8DE6-BFBD-4F59-ACD5-1FA1E9F3AF50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "Exception\Exception.csproj", "{1338D0F4-7A67-4A85-B143-EC078101F5D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileManager", "Exception\FileManager.csproj", "{1338D0F4-7A67-4A85-B143-EC078101F5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductRegister", "ProductRegister\ProductRegister.csproj", "{69FEF58C-1E9F-4662-B28C-0988DFA70B1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{1338D0F4-7A67-4A85-B143-EC078101F5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1338D0F4-7A67-4A85-B143-EC078101F5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1338D0F4-7A67-4A85-B143-EC078101F5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FEF58C-1E9F-4662-B28C-0988DFA70B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FEF58C-1E9F-4662-B28C-0988DFA70B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FEF58C-1E9F-4662-B28C-0988DFA70B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FEF58C-1E9F-4662-B28C-0988DFA70B1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
