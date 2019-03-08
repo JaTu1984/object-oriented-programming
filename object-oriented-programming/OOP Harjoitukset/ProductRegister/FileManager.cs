@@ -9,9 +9,11 @@ namespace ProductRegister
     class FileManager
     {
         private string filePath;
+        private string filePathTest;
         public FileManager()
         {
             this.filePath = @"C:\Users\janne\OneDrive\Työpöytä\Koulu\dev\object-oriented-programming\productregister\items.json";
+            this.filePathTest = @"C:\Users\janne\OneDrive\Työpöytä\Koulu\dev\object-oriented-programming\productregister\itemsTest.json";
         }
         public string ListItems()
         {
@@ -28,7 +30,7 @@ namespace ProductRegister
         }
         private string ReadFile()
         {
-            if (File.Exists(filePath)) // deserialize the json-file, if it exists, into a list
+            if (File.Exists(filePath))
             {
                 List<Item> itemList = JsonConvert.DeserializeObject<List<Item>>(File.ReadAllText(this.filePath));
                 foreach (Item item in itemList)
@@ -111,6 +113,58 @@ namespace ProductRegister
                 {
                     Console.WriteLine($"Nimi: {item.Name}\nTuotenumero: {item.Id}\nTuoteryhmä: {item.GroupName}\nHinta: {item.Price}\nMäärä: {item.Amount}\nKommentti: {item.Comment}\n");
                 }
+            }
+        }
+        public void ManageComment()
+        {
+            List<Item> itemList = JsonConvert.DeserializeObject<List<Item>>(File.ReadAllText(this.filePath));
+            int i = 0; 
+            foreach (Item item in itemList)
+            {
+                Console.WriteLine($"{i + 1}. {item.Name}");
+                i++;
+            }
+            Console.WriteLine("Syötä haluamasi tuotteen tarkka nimi lisätäksesi kommentin.");
+            string itemToComment = Console.ReadLine();
+            bool isFound = false; 
+            foreach (Item item in itemList)
+            {
+                if (item.Name == itemToComment)
+                {
+                    isFound = true; // set true to continue
+                    Console.WriteLine("Syötä A lisätäksesi kommentin tai D poistaaksesi kommentin.");
+                    string choice = Console.ReadLine().ToUpper();
+                    if (choice == "A")
+                    {
+                        Console.WriteLine("Kommenttisi: ");
+
+                        string newComment = Console.ReadLine();
+                        if (item.Comment.Replace("   ", "") != newComment) 
+                        {
+                            item.Comment += newComment + "   ";
+                            File.WriteAllText(filePath, JsonConvert.SerializeObject(itemList));
+                            Console.WriteLine($"Kommentti lisätty onnistuneesti: {newComment}");
+                        }
+                        else if (item.Comment.Replace("   ", "") == newComment)
+                        {
+                            Console.WriteLine("Ei voi syöttää samaa kommenttia kahdesti. Kommentin lisäys epäonnistui.");
+                        }
+                    }
+                    else if (choice == "D")
+                    {
+                        Console.WriteLine($"Deleted comment(s): {item.Comment}");
+                        item.Comment = ""; 
+                        File.WriteAllText(filePath, JsonConvert.SerializeObject(itemList));
+                    }
+                    else
+                    {
+                        Console.WriteLine("Väärä syöte.");
+                    }
+                }
+            }
+            if (isFound != true) 
+            {
+                Console.WriteLine("Tuotetta ei löytynyt.");
             }
         }
     }

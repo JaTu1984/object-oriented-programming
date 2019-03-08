@@ -34,6 +34,9 @@ namespace ProductRegister
                     case "C":
                         fileManager.PrintRanOut();
                         break;
+                    case "D":
+                        fileManager.ManageComment();
+                        break;
                     case "E":
                         message = "\nSuljetaan ohjelma.";
                         break;
@@ -53,6 +56,8 @@ namespace ProductRegister
             Console.WriteLine("[ A ] = Listaa kaikki tuotteet");
             Console.WriteLine("[ B ] = Listaa tuoteryhmän mukaan");
             Console.WriteLine("[ C ] = Listaa loppuneet tuotteet");
+            Console.WriteLine("[ D ] = Lisää tai poista tuotteen kommentti.");
+            Console.WriteLine("[ E ] = Sulje ohjelma.");
             string action = Console.ReadLine();
             return action;
         }
